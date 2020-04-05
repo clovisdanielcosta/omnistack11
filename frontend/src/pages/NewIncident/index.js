@@ -34,7 +34,7 @@ export default function NewIncident() {
             })
 
           history.push('/profile');  
-        } catch (error) {
+        } catch (err) {
             alert('Erro ao cadastro caso, tente novamente.');
         }
     }
@@ -60,7 +60,7 @@ export default function NewIncident() {
                         value={title}
                         onChange={e => setTitle(e.target.value)} 
                         />
-                    <input 
+                    <textarea 
                         placeholder="Descrição"
                         value={description} 
                         onChange={e => setDescription(e.target.value)} 
@@ -75,5 +75,5 @@ export default function NewIncident() {
                 </form> 
             </div>
         </div> 
-    );
+    )
 }

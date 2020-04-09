@@ -29,10 +29,16 @@ routes.get('/profile', celebrate({
 routes.get('/incidents', celebrate({
 	[Segments.QUERY]: Joi.object().keys({
 		page: Joi.number(),
-	}) 
+	})
 }), IncidentController.index);
 
-routes.post('/incidents', IncidentController.create);
+routes.post('/incidents', celebrate({
+	[Segments.BODY]: Joi.object().keys({
+		title: Joi.string().required(),
+		description: Joi.string().required(),
+		value: Joi.number().required(),
+	})
+}), IncidentController.create);
 
 routes.delete('/incidents/:id', celebrate({
 	[Segments.PARAMS]: Joi.object().keys({

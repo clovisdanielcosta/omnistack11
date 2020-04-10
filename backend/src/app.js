@@ -10,5 +10,5 @@ app.use(express.json());
 app.use(routes);
 app.use(errors());
 
-app.listen(3334);
-console.log('Listening to port: 3334');
+module.exports = app;
+

@@ -8,7 +8,9 @@ App mobile em React Native
 Usando Expo para criação e build
 Banco de Dados - Local Storage
 
-Sem necessidade de backend separado. 
+Sem necessidade de backend separado.
+
+Usando Trello para o Gerenciamento de Projetos. 
 
 
 

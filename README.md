@@ -7,7 +7,7 @@ Semana Omnistack 11 By RocketSeat
 </h1>
 
 <p>
-O objetivo deste projeto é criar um app para que ongs possam expor os casos de animais necessitando de ajuda que será consumido por um app mobile onde os usuários podem aceitar ser os heróis dos casos e ajudar a resolver um ou mais dos casos listados. Faz parte de um treinamento disponibilizado pela <b>Rocketseat</b> para ajudar desenvolvedores a firmar seus conhecimentos na Stack NodeJS + React + React Native:
+O objetivo deste projeto é criar um app para que ongs possam expor os seus casos de animais necessitando de ajuda. A API será consumida por um app mobile onde os usuários podem aceitar ser os heróis dos casos e ajudar a resolver um ou mais dos casos listados. Faz parte de um treinamento disponibilizado pela <b>Rocketseat</b> para ajudar desenvolvedores a firmar seus conhecimentos na Stack NodeJS + React + React Native:
 </p>
 
 <p align="center">
@@ -50,11 +50,11 @@ Nesse projeto foram usadas as seguintes tecnologias:
 
 1. Faça o clone deste repositório numa pasta desejada.
 2. Instale o NodeJS.
-3. Entre nas pastas './backend', './frontend' e './mobile' uma por vez e rode os comandos: 
+3. Para instalar as dependências, num terminal, entre nas pastas './backend', './frontend' e './mobile' uma por vez e rode o comando: 
 
     `$ npm install`
 
-4. Depois:
+4. Para levantar a aplicação, no terminal, entre nas mesmas pastas acima uma por vez e digite:
 
     `$ npm start`
 
@@ -63,6 +63,8 @@ Nesse projeto foram usadas as seguintes tecnologias:
     > ./frontend/src/services/api.js
 
     > ./mobile/src/services/api.js
+
+6. No caso do Mobile será necessário instalar o Expo no smartphone Android. 
 
 ## :books: Conhecimento
 

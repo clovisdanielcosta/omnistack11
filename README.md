@@ -11,17 +11,27 @@ O objetivo deste projeto é criar um app para que ongs possam expor os casos de 
 </p>
 
 <p align="center">
+  <a href="#small_orange_diamond-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-instalando">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-conhecimento">Conhecimentos adquiridos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#small_orange_diamond-contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#small_orange_diamond-customizacao">Customizando</a>
+  <a href="#small_orange_diamond-customizando">Customizando</a>
 </p>
 
 <p align="center">
   <img alt="BeTheHero" src="img/be-the-hero.gif" width="50%">
-
 </p>
+
+## :small_orange_diamond: Deploy
+  
+Foi usado o servidor Heroku para o deploy da aplicação, tanto o Backend como o Frontend. A integração contínua com o GitHub também já está setada. Para testar a aplicação siga os passos abaixo.
+
+1. Frontend, acesse: [https://bit.ly/cd_be-the-hero](https://bit.ly/cd_be-the-hero)
+
+2. Mobile, faça o download e instale no Android o arquivo <b>'bethehero_1_0.apk'</b>.
+
+3. Cadastre uma ong e seus respectivos casos. Depois acesse o app no smartphone para interagir com o caso desejado.
 
 ## :rocket: Tecnologias
 

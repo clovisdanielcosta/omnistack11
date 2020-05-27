@@ -19,7 +19,7 @@ O objetivo deste projeto é criar um app para que ongs possam expor os casos de 
 </p>
 
 <p align="center">
-  <img alt="certificado" src="img/certificado_omnistack11.jpg" width="35%">
+  <img alt="certificado" src="img/certificado_omnistack11.jpg" width="30%">
   <img alt="BeTheHero" src="img/be-the-hero.gif" width="40%">
 
 </p>

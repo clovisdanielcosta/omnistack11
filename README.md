@@ -51,12 +51,14 @@ Nesse projeto foram usadas as seguintes tecnologias:
 1. Faça o clone deste repositório numa pasta desejada.
 2. Instale o NodeJS.
 3. Entre nas pastas './backend', './frontend' e './mobile' uma por vez e rode os comandos: 
+
     `$ npm install`
 
-Depois:
+4. Depois:
+
     `$ npm start`
 
-4. Certifique-se de que a rota esteja apontando corretamente o ip da sua rede depois de levantar o servidor de backend. A alteração deve ser feita nos arquivos:
+5. Certifique-se de que a rota esteja apontando corretamente o ip da sua rede depois de levantar o servidor de backend. A alteração deve ser feita nos arquivos:
 
     > ./frontend/src/services/api.js
 

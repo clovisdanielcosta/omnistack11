@@ -51,16 +51,16 @@ Nesse projeto foram usadas as seguintes tecnologias:
 1. Faça o clone deste repositório numa pasta desejada.
 2. Instale o NodeJS.
 3. Entre nas pastas './backend', './frontend' e './mobile' uma por vez e rode os comandos: 
+    `$ npm install`
 
-    `$ npm install`
 Depois:
-    `$ npm install`
+    `$ npm start`
 
 4. Certifique-se de que a rota esteja apontando corretamente o ip da sua rede depois de levantar o servidor de backend. A alteração deve ser feita nos arquivos:
 
-> ./frontend/src/services/api.js
+    > ./frontend/src/services/api.js
 
-> ./mobile/src/services/api.js
+    > ./mobile/src/services/api.js
 
 ## :books: Conhecimento
 
@@ -74,7 +74,7 @@ Foi meu primeiro contato com a Stack e achei fantástica a facilidade de impleme
 
 ## :small_orange_diamond: Contribuindo
 
-Se encontrar dificuldade para a instalação do NodeJS no Windows através do Chocolatey poderá acessar o link abaixo para obter ajuda:
+Se encontrar dificuldade para a instalação do NodeJS no Windows através do Chocolatey poderá acessar meu outro repositório sobre o assunto para obter ajuda:
 
 [Instalando o NodeJS no Windows](https://github.com/clovisdanielcosta/nodejs/)
 

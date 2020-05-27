@@ -54,7 +54,7 @@ Nesse projeto foram usadas as seguintes tecnologias:
 
     `$ npm install`
 
-4. Para levantar a aplicação, no terminal, entre nas mesmas pastas acima uma por vez e digite:
+4. Para levantar a aplicação, no terminal, entre nas mesmas pastas acima uma por vez e rode o comando:
 
     `$ npm start`
 

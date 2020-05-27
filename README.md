@@ -1,2 +1,86 @@
-# omnistack11
-OmniStack 11.0 by RocketSeat
+
+<h1 align="center">
+Be The Hero
+<h2 align="center">
+Semana Omnistack 11 By RocketSeat
+</h2>
+</h1>
+
+<p>
+O objetivo deste projeto é criar um app para que ongs possam expor os casos de animais necessitando de ajuda que será consumido por um app mobile onde os usuários podem aceitar ser os heróis dos casos e ajudar a resolver um ou mais dos casos listados. Faz parte de um treinamento disponibilizado pela <b>Rocketseat</b> para ajudar desenvolvedores a firmar seus conhecimentos na Stack NodeJS + React + React Native:
+</p>
+
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-instalando">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#books-conhecimento">Conhecimentos adquiridos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#small_orange_diamond-contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#small_orange_diamond-customizacao">Customizando</a>
+</p>
+
+<p align="center">
+  <img alt="certificado" src=".img/certificado_omnistack11.jpg" width="100%">
+  <img alt="BeTheHero" src=".img/be-the-hero.gif" width="100%">
+
+</p>
+
+## :rocket: Tecnologias
+
+Nesse projeto foram usadas as seguintes tecnologias:
+
+- [Chocolatey](https://git-scm.com/)
+- [NodeJS](https://git-scm.com/)
+- [Express](https://github.com/)
+- [Insomnia](https://gitforwindows.org/)
+- [React](https://gitforwindows.org/)
+- [React Native](https://gitforwindows.org/)
+- [Celebrate](https://gitforwindows.org/)
+- [Expo](https://gitforwindows.org/)
+
+## :memo: Instalando
+
+1. Faça o clone deste repositório numa pasta desejada.
+2. Instale o NodeJS.
+3. Entre nas pastas './backend', './frontend' e './mobile' uma por vez e rode os comandos: 
+
+`$ npm install`
+
+Depois:
+
+`$ npm start`
+
+4. Certifique-se de que a rota esteja apontando corretamente o ip da sua rede depois de levantar o servidor de backend. A alteração deve ser feita nos arquivos:
+
+> ./frontend/src/services/api.js
+> ./mobile/src/services/api.js
+
+## :books: Conhecimento
+
+Foi meu primeiro contato com a Stack e achei fantástica a facilidade de implementação. Outras características que foram marcantes:
+
+- A importância do planejamento antes de codar.
+- A estruturação organizada de pastas e arquivos do projeto.
+- FlatList ao invés de ListView.
+- Controlar o scroll infinito. 
+- Uso do Expo para geração do apk e para integração contínua. 
+
+## :small_orange_diamond: Contribuindo
+
+Se encontrar dificuldade para a instalação do NodeJS no Windows através do Chocolatey poderá acessar o link abaixo para obter ajuda:
+
+[Instalando o NodeJS no Windows](https://github.com/clovisdanielcosta/nodejs/)
+
+## :small_orange_diamond: Customizando
+
+Fiz uma pequena customização na parte do Mobile do projeto porque, durante a semana, a parte de descrição dos casos acabou não sendo implementada antes da geração do apk. Abaixo as linhas que foram adicionadas nos arquivos 'index.js' nas pastas de 'Incidents' e 'Detail':
+
+```javascript
+        <Text style={styles.incidentProperty}>DESCRIÇÃO:</Text>
+        <Text style={styles.incidentValue}>{incident.description}</Text>                       
+```                        
+
+## :small_orange_diamond: Agradecimentos
+
+Quero agradecer a RocketSeat pelas contribuições para o meu aprendizado neste projeto. Parabéns pelo trabalho de vocês. 
+
+Muito obrigado!:clap::clap:

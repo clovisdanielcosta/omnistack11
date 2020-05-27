@@ -19,8 +19,8 @@ O objetivo deste projeto é criar um app para que ongs possam expor os casos de 
 </p>
 
 <p align="center">
-  <img alt="certificado" src=".img/certificado_omnistack11.jpg" width="100%">
-  <img alt="BeTheHero" src=".img/be-the-hero.gif" width="100%">
+  <img alt="certificado" src="img/certificado_omnistack11.jpg" width="100%">
+  <img alt="BeTheHero" src="img/be-the-hero.gif" width="100%">
 
 </p>
 
@@ -28,14 +28,14 @@ O objetivo deste projeto é criar um app para que ongs possam expor os casos de 
 
 Nesse projeto foram usadas as seguintes tecnologias:
 
-- [Chocolatey](https://git-scm.com/)
-- [NodeJS](https://git-scm.com/)
-- [Express](https://github.com/)
-- [Insomnia](https://gitforwindows.org/)
-- [React](https://gitforwindows.org/)
-- [React Native](https://gitforwindows.org/)
-- [Celebrate](https://gitforwindows.org/)
-- [Expo](https://gitforwindows.org/)
+- [Chocolatey](https://chocolatey.org/)
+- [NodeJS](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+- [Insomnia](https://insomnia.rest/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Celebrate](https://www.npmjs.com/package/celebrate)
+- [Expo](https://expo.io/)
 
 ## :memo: Instalando
 
@@ -43,15 +43,14 @@ Nesse projeto foram usadas as seguintes tecnologias:
 2. Instale o NodeJS.
 3. Entre nas pastas './backend', './frontend' e './mobile' uma por vez e rode os comandos: 
 
-`$ npm install`
-
+    `$ npm install`
 Depois:
-
-`$ npm start`
+    `$ npm install`
 
 4. Certifique-se de que a rota esteja apontando corretamente o ip da sua rede depois de levantar o servidor de backend. A alteração deve ser feita nos arquivos:
 
 > ./frontend/src/services/api.js
+
 > ./mobile/src/services/api.js
 
 ## :books: Conhecimento

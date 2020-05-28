@@ -1,19 +1,19 @@
 
 <h1 align="center">
-Be The Hero
-<h2 align="center">
+:small_red_triangle_down: Be The Hero
+<h3 align="center">
 Semana Omnistack 11 By RocketSeat
-</h2>
+</h3>
 </h1>
 
 <p>
-O objetivo deste projeto é criar um app para que ongs possam expor os seus casos de animais necessitando de ajuda. A API será consumida por um app mobile onde os usuários podem aceitar ser os heróis dos casos e ajudar a resolver um ou mais dos casos listados. Faz parte de um treinamento disponibilizado pela <b>Rocketseat</b> para ajudar desenvolvedores a firmar seus conhecimentos na Stack NodeJS + React + React Native:
+O objetivo deste projeto é criar um app para que ongs possam expor os seus casos de animais necessitando de ajuda. A API será consumida por um app mobile onde os usuários podem aceitar ser os heróis dos casos e ajudar a resolver um ou mais dos casos listados. Faz parte de um treinamento disponibilizado pela <b>Rocketseat</b> para ajudar desenvolvedores a firmar seus conhecimentos na Stack NodeJS + React + React Native.
 </p>
 
 <p align="center">
-  <a href="#small_orange_diamond-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#cloud-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-instalando">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-instalando">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-conhecimento">Conhecimentos adquiridos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#small_orange_diamond-contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#small_orange_diamond-customizando">Customizando</a>
@@ -23,7 +23,7 @@ O objetivo deste projeto é criar um app para que ongs possam expor os seus caso
   <img alt="BeTheHero" src="img/be-the-hero.gif" width="50%">
 </p>
 
-## :small_orange_diamond: Deploy
+## :cloud: Deploy
   
 Foi usado o servidor Heroku para o deploy da aplicação, tanto o Backend como o Frontend. A integração contínua com o GitHub também já está setada. Para testar a aplicação siga os passos abaixo.
 
@@ -46,7 +46,7 @@ Nesse projeto foram usadas as seguintes tecnologias:
 - [Celebrate](https://www.npmjs.com/package/celebrate)
 - [Expo](https://expo.io/)
 
-## :memo: Instalando
+## :computer: Instalando
 
 1. Faça o clone deste repositório numa pasta desejada.
 2. Instale o NodeJS.
